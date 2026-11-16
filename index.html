@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BBC British Book Center | More than English. More opportunities.</title>
+<meta name="description" content="BBC — British Book Center in Gaza. 12 English levels, exclusive offers and real student voices.">
+<meta property="og:title" content="BBC — British Book Center">
+<meta property="og:description" content="Learn English. Build confidence. Discover your potential.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/images/hero-students.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+
+<!-- BBC Favicon -->
+<link rel="icon" type="image/svg+xml" href="./images/logo.jpeg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="progress" id="progress"></div>
+
+<header class="nav" id="nav">
+<a class="logo" href="#home" aria-label="BBC">
+  <span class="logo-mark">BBC</span>
+</a>  <nav id="menu" aria-label="Main">
+    <a href="#home" data-i18n="nav.home">Home</a>
+    <a href="#about" data-i18n="nav.about">About</a>
+    <a href="#levels" data-i18n="nav.programs">Programs</a>
+    <a href="#offers" data-i18n="nav.offers">Offers</a>
+    <a href="#voices" data-i18n="nav.stories">Student Stories</a>
+    <a href="#beyond" data-i18n="nav.activities">Activities</a>
+    <a href="#contact" data-i18n="nav.contact">Contact</a>
+  </nav>
+  <div class="nav-end">
+    <button class="lang" id="lang" type="button" aria-label="Switch language">AR</button>
+    <a class="btn btn-sm" href="https://goo.gl/forms/B5EVyWysQqD0zmrb2" target="_blank" rel="noopener" data-i18n="nav.join">Join BBC</a>
+    <button class="burger" id="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="menu"><i></i><i></i></button>
+  </div>
+</header>
+
+<main>
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-text">
+    <h1>
+      <span class="line"><span data-i18n="hero.l1">MORE THAN ENGLISH.</span></span>
+      <span class="line"><span data-i18n="hero.l2">MORE THAN WORDS.</span></span>
+      <span class="line red"><span data-i18n="hero.l3">MORE OPPORTUNITIES.</span></span>
+    </h1>
+    <p class="hero-sub" data-i18n="hero.sub">Learn English. Build Confidence. Discover Your Potential.</p>
+    <p class="hero-desc" data-i18n="hero.desc">At BBC, English is more than a language. It is a gateway to confidence, communication, personal growth, and new opportunities.</p>
+    <div class="cta-row">
+      <a class="btn" href="https://goo.gl/forms/B5EVyWysQqD0zmrb2" target="_blank" rel="noopener" data-i18n="hero.cta1">START YOUR JOURNEY</a>
+      <a class="btn btn-ghost" href="#about" data-i18n="hero.cta2">EXPLORE BBC</a>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <div class="hero-img img-a"><img src="./images/hero-img img-a.webp" alt="BBC students in class" onerror="this.remove()"></div>
+    <div class="hero-img img-b"><img src="./images/hero-img 2.webp" alt="Speaking practice at BBC" loading="lazy" onerror="this.remove()"></div>
+    <div class="hero-badge"><b>12</b><span data-i18n="hero.badge">levels, one journey</span></div>
+  </div>
+  <a class="scroll" href="#about" aria-label="Scroll down"><span></span></a>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="about-img"><img src="./images/about-img.webp" alt="Inside British Book Center" loading="lazy" onerror="this.remove()"></div>
+  <div class="about-copy">
+    <h2 class="big reveal" data-i18n="about.h">MORE THAN A PLACE TO LEARN.</h2>
+    <p class="reveal" data-i18n="about.p">BBC is a place where students develop their English language skills, build confidence, strengthen communication, and discover their potential.</p>
+  </div>
+</section>
+
+<!-- WHY -->
+<section class="why">
+  <h2 class="big reveal" data-i18n="why.h">WHY BBC?</h2>
+  <ol class="why-grid">
+    <li class="reveal"><b>01</b><h3 data-i18n="why.1t">INTERACTIVE LEARNING</h3><p data-i18n="why.1p">Learn through practical and engaging experiences.</p></li>
+    <li class="reveal"><b>02</b><h3 data-i18n="why.2t">PERSONAL GROWTH</h3><p data-i18n="why.2p">Build confidence and improve communication.</p></li>
+    <li class="reveal"><b>03</b><h3 data-i18n="why.3t">SUPPORTIVE COMMUNITY</h3><p data-i18n="why.3p">Grow in a welcoming learning environment.</p></li>
+    <li class="reveal"><b>04</b><h3 data-i18n="why.4t">REAL OPPORTUNITIES</h3><p data-i18n="why.4p">Discover activities, workshops, and new experiences.</p></li>
+  </ol>
+</section>
+
+<!-- JOURNEY & POTENTIAL -->
+<section class="journey" id="journey">
+  <figure class="jp-img"><img src="./images/jp-img.webp" alt="Students learning together at BBC" loading="lazy" onerror="this.remove()"></figure>
+  <div class="jp-copy">
+    <h2 class="big reveal" data-i18n="jp.h">YOUR JOURNEY. YOUR POTENTIAL.</h2>
+    <p class="reveal" data-i18n="jp.p"></p>
+    <div class="stats" id="stats"></div>
+  </div>
+</section>
+
+<!-- LEVELS -->
+<section class="levels" id="levels">
+  <h2 class="big reveal" data-i18n="lv.h">YOUR NEXT LEVEL STARTS HERE.</h2>
+  <p class="lead reveal" data-i18n="lv.p">Twelve levels. Five stages. One clear path from your first words to confident, fluent English.</p>
+  <div class="lv-track" id="lvTrack"></div>
+</section>
+
+<!-- OFFERS -->
+<section class="offers" id="offers">
+  <div class="offers-head">
+    <h2 class="big reveal" data-i18n="of.h">EXCLUSIVE OPPORTUNITIES.</h2>
+    <p class="lead reveal" data-i18n="of.p">Your journey to better English starts with the right opportunity.</p>
+  </div>
+
+  <article class="camp camp-1" id="camp1">
+    <a class="poster" href="./images/poster.png" target="_blank" rel="noopener" aria-label="Open Speak &amp; Connect poster">
+      <img src="./images/poster.png" alt="Speak &amp; Connect offer poster — 450 NIS" loading="lazy">
+    </a>
+    <div class="camp-copy">
+      <p class="tag">SPEAK &amp; CONNECT</p>
+      <h3 class="camp-title" data-i18n="c1.h">YOUR VOICE. YOUR CONFIDENCE.</h3>
+      <p class="ar-line" lang="ar" dir="rtl">مش بس تعلّم الإنجليزية... خليها لغتك في الحوار!</p>
+      <p class="ar-offer" lang="ar" dir="rtl">ادفع قيمة مستوى واحد واحصل على مستويين إضافيين!</p>
+      <div class="price"><b>450</b><span>NIS</span></div>
+      <ul class="ticks">
+        <li data-i18n="c1.b1">3 Integrated Levels.</li>
+        <li data-i18n="c1.b2">More Speaking Practice.</li>
+        <li data-i18n="c1.b3">Better Confidence.</li>
+        <li data-i18n="c1.b4">Improved Fluency.</li>
+      </ul>
+      <a class="btn" href="https://goo.gl/forms/B5EVyWysQqD0zmrb2" target="_blank" rel="noopener" data-i18n="of.reg">REGISTER NOW</a>
+    </div>
+  </article>
+
+  <article class="camp camp-2" id="camp2">
+    <div class="c2-main">
+      <p class="tag">12 LEVELS. 12 MONTHS.</p>
+      <h3 class="camp-title" data-i18n="c2.h">ONE YEAR. MORE POSSIBILITIES.</h3>
+      <p class="ar-line" lang="ar" dir="rtl">عام كامل من التعلّم والتطور!</p>
+      <div class="price huge"><b>900</b><span>NIS</span></div>
+      <div class="cta-row">
+        <a class="btn" href="https://goo.gl/forms/B5EVyWysQqD0zmrb2" target="_blank" rel="noopener" data-i18n="of.reg">REGISTER NOW</a>
+        <a class="btn btn-ghost" href="https://wa.me/970566130150" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </div>
+    <ul class="c2-list">
+      <li data-i18n="c2.1">Free English placement test.</li>
+      <li data-i18n="c2.2">Pay for two levels only: 900 NIS.</li>
+      <li data-i18n="c2.3">Start studying immediately.</li>
+      <li data-i18n="c2.4">Remaining levels free for one year.</li>
+      <li data-i18n="c2.5">Book fee: 50 NIS per level.</li>
+      <li data-i18n="c2.6">Twelve levels during twelve months.</li>
+      <li data-i18n="c2.7">Special discounts for siblings and friends.</li>
+    </ul>
+  </article>
+</section>
+
+<!-- STUDENT VOICES -->
+<section class="voices" id="voices">
+  <div class="voices-head">
+    <h2 class="big reveal" data-i18n="v.h">REAL STUDENTS. REAL VOICES.</h2>
+    <p class="lead reveal" data-i18n="v.p">Confidence is not just taught. It is built through practice, experience, and expression.</p>
+    <div class="arrows"><button id="prev" type="button" aria-label="Previous">‹</button><button id="next" type="button" aria-label="Next">›</button></div>
+  </div>
+  <div class="reels" id="reels" tabindex="0" aria-label="Student reels"></div>
+  <a class="btn btn-ghost voices-more" href="https://www.instagram.com/bbc.institute/" target="_blank" rel="noopener" data-i18n="v.more">VIEW MORE ON INSTAGRAM</a>
+</section>
+
+<!-- BEYOND THE CLASSROOM -->
+<section class="beyond" id="beyond">
+  <h2 class="big reveal" data-i18n="gal.h">LEARNING BEYOND THE CLASSROOM.</h2>
+  <div class="mosaic">
+    <button class="tile t-big" type="button"><img src="./images/Conversation activities.webp" alt="Conversation activity" loading="lazy" onerror="this.remove()"><span data-i18n="gal.4">Conversation activities</span></button>
+    <button class="tile t1" type="button"><img src="./images/gal.4.webp" alt="Group learning" loading="lazy" onerror="this.remove()"><span data-i18n="gal.1">Group learning</span></button>
+    <button class="tile t2" type="button"><img src="./images/Workshops.webp" alt="Workshop" loading="lazy" onerror="this.remove()"><span data-i18n="gal.2">Workshops</span></button>
+    <button class="tile t3" type="button"><img src="./images/Student presentations.webp" alt="Student presentation" loading="lazy" onerror="this.remove()"><span data-i18n="gal.3">Student presentations</span></button>
+  </div>
+</section>
+
+<!-- STEPS -->
+<section class="steps">
+  <h2 class="big reveal" data-i18n="st.h">FOUR STEPS. ONE NEW YOU.</h2>
+  <ol class="steps-line">
+    <li class="reveal"><b>01</b><span data-i18n="st.1">Take a Placement Test.</span></li>
+    <li class="reveal"><b>02</b><span data-i18n="st.2">Discover Your Level.</span></li>
+    <li class="reveal"><b>03</b><span data-i18n="st.3">Start Learning.</span></li>
+    <li class="reveal"><b>04</b><span data-i18n="st.4">Build Your Confidence.</span></li>
+  </ol>
+</section>
+
+<!-- ACTIVITIES (auto-hides until ACTIVITIES has items) -->
+<section class="activities" id="activities" hidden><h2 class="big reveal" data-i18n="act.h">A COMMUNITY THAT INSPIRES.</h2><div class="act-grid" id="actGrid"></div></section>
+<!-- TEACHERS (auto-hides until TEACHERS has items) -->
+<section class="teachers" id="teachers" hidden><h2 class="big reveal" data-i18n="tch.h">LEARN WITH PEOPLE WHO INSPIRE.</h2><div class="tch-grid" id="tchGrid"></div></section>
+<!-- TESTIMONIALS (auto-hides until TESTIMONIALS has items) -->
+<section class="testi" id="testi" hidden><h2 class="big reveal" data-i18n="tst.h">EVERY JOURNEY HAS A STORY.</h2>
+  <div class="tst-wrap"><div class="tst-slide" id="tstSlide" aria-live="polite"></div><div class="arrows"><button id="tPrev" type="button" aria-label="Previous">‹</button><button id="tNext" type="button" aria-label="Next">›</button></div></div></section>
+<!-- FAQ -->
+<section class="faq" id="faq">
+  <h2 class="big reveal" data-i18n="faq.h">QUESTIONS? WE'RE HERE TO HELP.</h2>
+  <div class="faq-list" id="faqList"></div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <h2 class="big reveal" data-i18n="ct.h">LET’S START YOUR ENGLISH JOURNEY.</h2>
+  <div class="contact-grid">
+    <address>
+      <p><strong>BBC — British Book Center</strong></p>
+      <p><span data-i18n="ct.phone">Phone</span>: <a href="tel:0566130150" dir="ltr">0566130150</a></p>
+      <p>WhatsApp: <a href="https://wa.me/970566130150" target="_blank" rel="noopener" dir="ltr">+970 566 130 150</a></p>
+      <p lang="ar" dir="rtl">غزة – الرمال – السرايا – شارع الشهداء – عمارة ساق الله – الطابق الأول</p>
+      <p><a href="https://www.instagram.com/bbc.institute/" target="_blank" rel="noopener">Instagram @bbc.institute</a></p>
+    </address>
+    <div class="cta-col">
+      <a class="btn" href="https://goo.gl/forms/B5EVyWysQqD0zmrb2" target="_blank" rel="noopener" data-i18n="ct.reg">REGISTER NOW</a>
+      <a class="btn btn-ghost" href="https://wa.me/970566130150" target="_blank" rel="noopener" data-i18n="ct.wa">CHAT ON WHATSAPP</a>
+    </div>
+  </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="ft-top">
+  <a class="logo" href="#home" aria-label="BBC">
+  <span class="logo-mark">BBC</span>
+</a>
+    <p class="ft-tag" data-i18n="ft.tag">MORE THAN ENGLISH. MORE CONFIDENCE. MORE YOU.</p>
+  </div>
+  <nav class="ft-nav" aria-label="Footer"><a href="#about" data-i18n="ft.about">About BBC</a><a href="#levels" data-i18n="nav.programs">Programs</a><a href="#offers" data-i18n="nav.offers">Offers</a><a href="#faq" data-i18n="ft.faq">FAQ</a></nav>
+  <div class="ft-social"><a href="https://www.instagram.com/bbc.institute/" target="_blank" rel="noopener">Instagram</a><a href="https://wa.me/970566130150" target="_blank" rel="noopener">WhatsApp</a><a href="tel:0566130150" dir="ltr">0566130150</a></div>
+  <p class="ft-copy" data-i18n="ft.copy">© 2026 BBC — British Book Center. All rights reserved.</p>
+</footer>
+<a class="wa" href="https://wa.me/970566130150?text=Hello%20BBC!%20I%20would%20like%20to%20know%20more." target="_blank" rel="noopener" aria-label="Chat with BBC on WhatsApp"><svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true"><path fill="#fff" d="M16 3C9 3 3.4 8.6 3.4 15.5c0 2.3.6 4.4 1.7 6.3L3 29l7.4-2c1.8 1 3.800 1.500 5.600 1.500 7 0 12.600-5.600 12.600-12.500S23 3 16 3zm0 22.800c-1.800 0-3.500-.5-5-1.400l-.4-.2-4.400 1.200 1.200-4.300-.3-.4a10 10 0 0 1-1.500-5.300C5.600 9.900 10.300 5.300 16 5.300s10.400 4.600 10.400 10.300S21.700 25.800 16 25.800zm5.700-7.600c-.3-.2-1.900-.9-2.200-1-.3-.1-.5-.2-.7.200-.2.300-.8 1-1 1.200-.2.200-.4.200-.7.100-1.900-.9-3.100-1.700-4.300-3.800-.3-.6.300-.5.900-1.700.1-.2 0-.4 0-.5l-1-2.300c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.6.100-.9.400-.3.300-1.100 1.100-1.100 2.600s1.100 3 1.300 3.200c.2.200 2.200 3.400 5.300 4.700 2 .8 2.700.9 3.700.7.600-.1 1.900-.8 2.100-1.500.3-.7.300-1.400.2-1.500-.1-.2-.3-.2-.6-.4z"/></svg></a>
+<div class="lightbox" id="lb" hidden role="dialog" aria-modal="true" aria-label="Image viewer"><button type="button" id="lbClose" aria-label="Close">×</button><img alt=""><p></p></div>
+<button class="totop" id="totop" type="button" aria-label="Back to top">↑</button>
+<script src="script.js"></script>
+</body>
+</html>
